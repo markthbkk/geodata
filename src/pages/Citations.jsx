@@ -5,7 +5,7 @@ const Citations = () => {
   const [GovData, setGovData] = useState([]);
 
 const getGovData = async () => {
-  const res = await fetch("../../public/GovernanceData.json");
+  const res = await fetch("/geodata/GovernanceData.json");
 
   const GovernanceData = await res.json();
 
