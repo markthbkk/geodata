@@ -23,7 +23,6 @@ const RegionGrid = ({ regions, clickHandler }) => {
             color="white"
             fontSize="xl"
             onClick={() => clickHandler(region)}
-            px="1rem"
           >
             {region}
           </Box>

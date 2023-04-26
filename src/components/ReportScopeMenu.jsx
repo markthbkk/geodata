@@ -13,12 +13,13 @@ const changeHandler = (value) => {
     <Flex
       bg="blue.900"
       color="white"
-      w="100%"
+      w="80%"
       py="1rem"
       pl="1rem"
       align="center"
       justify="left"
       borderRadius="5px"
+      mx="1rem"
     >
       <RadioGroup onChange={changeHandler} value={reportScope}>
         <Stack direction="column">

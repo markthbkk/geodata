@@ -1,7 +1,6 @@
-import React from 'react'
+import React from "react";
 import { Grid, GridItem, Box } from "@chakra-ui/react";
 import { useQuery } from "@tanstack/react-query";
-
 
 const getSubRegions = async (ParentRegion) => {
   const region = ParentRegion;
@@ -14,13 +13,12 @@ const getSubRegions = async (ParentRegion) => {
 };
 
 const RequestSubregionInRegion = ({ region, clickHandler }) => {
-    
-const subRegions = useQuery({
-  queryKey: ["subregions", region],
-  queryFn: () => getSubRegions(region),
-});
+  const subRegions = useQuery({
+    queryKey: ["subregions", region],
+    queryFn: () => getSubRegions(region),
+  });
 
-    console.log({ subRegions });
+  console.log({ subRegions });
 
   return (
     <Grid
@@ -44,7 +42,6 @@ const subRegions = useQuery({
             color="white"
             fontSize="xl"
             onClick={() => clickHandler(subregion)}
-            px="1rem"
           >
             {subregion}
           </Box>
@@ -52,6 +49,6 @@ const subRegions = useQuery({
       ))}
     </Grid>
   );
-}
+};
 
-export default RequestSubregionInRegion
+export default RequestSubregionInRegion;
