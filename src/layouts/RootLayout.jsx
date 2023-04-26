@@ -20,7 +20,7 @@ export default function RootLayout() {
                   py={[".6rem", ".6rem", "1rem", "1rem"]}
                   font="calibri"
                   border=".3rem solid white"
-                  margin="1.8rem"
+                  margin="1rem"
                 >
                   <Text fontSize={["3xl", "3xl", "4xl", "4xl"]} align="center">
                     G
@@ -31,7 +31,7 @@ export default function RootLayout() {
                   py={[".6rem", ".6rem", "1rem", "1rem"]}
                   font="calibri"
                   border=".3rem solid white"
-                  margin="1.8rem"
+                  margin="1rem"
                 >
                   <Text fontSize={["3xl", "3xl", "4xl", "4xl"]} align="center">
                     E
@@ -42,7 +42,7 @@ export default function RootLayout() {
                   py={[".6rem", ".6rem", "1rem", "1rem"]}
                   font="calibri"
                   border=".3rem solid white"
-                  margin="1.8rem"
+                  margin="1rem"
                 >
                   <Text fontSize={["3xl", "3xl", "4xl", "4xl"]} align="center">
                     O
