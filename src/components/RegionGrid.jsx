@@ -8,6 +8,7 @@ const RegionGrid = ({ regions, clickHandler }) => {
       mb="2vh"
       mt="3rem"
       align="center"
+      mx="2rem"
     >
       {regions.data?.map((region) => (
         <GridItem colSpan={1} key={region}>
