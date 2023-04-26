@@ -14,7 +14,7 @@ export default function RootLayout() {
         <GridItem colSpan={4} bg="blue.900" color="white">
           <nav>
             <Flex justifyContent="center">
-              <HStack spacing={10} py="1.8rem">
+              <HStack spacing={10} py="1.8rem" mx="1rem">
                 <Box
                   w="6rem"
                   py="1rem"

@@ -15,7 +15,7 @@ const SearchResultsRegions = ({ regions, clickHandler, hideCountries }) => {
       align="center"
     >
       {regions.data?.map((region) => (
-        <GridItem colSpan={[3,3,3,1]} key={region}>
+        <GridItem colSpan={[3,3,1,1]} key={region}>
           <Box
             as="button"
             w="80%"
