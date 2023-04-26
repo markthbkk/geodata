@@ -12,7 +12,7 @@ const RegionOutputGrid = ({ inputArray }) => {
           mb="1rem"
           bg="black"
           color="white"
-          w="100%"
+          w="80%"
           h="100%"
           pl="1rem"
           py="1rem"
