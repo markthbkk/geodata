@@ -14,7 +14,7 @@ export default function RootLayout() {
         <GridItem colSpan={4} bg="blue.900" color="white">
           <nav>
             <Flex justifyContent="center">
-              <HStack spacing={[6,6,10,10]} py="1.8rem">
+              <HStack spacing={[6, 6, 10, 10]} py="1.8rem">
                 <Box
                   w={["4rem", "4rem", "6rem", "6rem"]}
                   py={[".6rem", ".6rem", "1rem", "1rem"]}
@@ -27,8 +27,8 @@ export default function RootLayout() {
                   </Text>
                 </Box>
                 <Box
-                  w="6rem"
-                  py="1rem"
+                  w={["4rem", "4rem", "6rem", "6rem"]}
+                  py={[".6rem", ".6rem", "1rem", "1rem"]}
                   font="calibri"
                   border=".3rem solid white"
                   margin=".8rem"
@@ -38,8 +38,8 @@ export default function RootLayout() {
                   </Text>
                 </Box>
                 <Box
-                  w="6rem"
-                  py="1rem"
+                  w={["4rem", "4rem", "6rem", "6rem"]}
+                  py={[".6rem", ".6rem", "1rem", "1rem"]}
                   font="calibri"
                   border=".3rem solid white"
                   margin=".8rem"
