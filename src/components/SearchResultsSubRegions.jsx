@@ -38,7 +38,7 @@ const SearchResultsSubRegions = ({
       align="center"
     >
       {subRegions.data?.map((subregion) => (
-        <GridItem colSpan={1} key={subregion}>
+        <GridItem colSpan={[3, 3, 3, 1]} key={subregion}>
           <Box
             as="button"
             w="80%"
@@ -50,7 +50,7 @@ const SearchResultsSubRegions = ({
             bg="blue.900"
             color="white"
             fontSize="xl"
-            onClick={ () => handleClick(subregion) }
+            onClick={() => handleClick(subregion)}
           >
             {subregion}
           </Box>
