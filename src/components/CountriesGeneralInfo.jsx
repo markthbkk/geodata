@@ -38,7 +38,7 @@ setCountryName(thisCountryName);
       <Flex wrap="wrap" justify="space-around" mt="3rem">
         {countries.map((country) => (
           <Card
-            w="30%"
+            w={["45%", "45%", "30%"]}
             key={country.CountryCode}
             mb="2rem"
             p=".6rem"
