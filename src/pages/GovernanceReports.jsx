@@ -16,7 +16,7 @@ const GovernanceReports = () => {
   const [showPrepareReportQuery, setShowPrepareReportQuery] = useState(false);
 
   const getGovData = async () => {
-    const res = await fetch("../../public/GovernanceData.json");
+    const res = await fetch("/GovernanceData.json");
 
     const GovernanceData = await res.json();
 

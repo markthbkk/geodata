@@ -24,7 +24,7 @@ const SearchResultsRegions = ({ regions, clickHandler, hideCountries }) => {
             borderRadius="5px"
             my="1rem"
             py=".5rem"
-            bg="blue.700"
+            bg="blue.900"
             color="white"
             fontSize="xl"
             onClick={() => clickHandlerRegion(region)}
