@@ -31,7 +31,7 @@ const router = createBrowserRouter(
       <Route path="/reports" element={<GovernanceReports />} loader={countriesLoader(queryClient)} />
       <Route path="/citations" element={<Citations />} />
     </Route>
-  )
+  ),
   { basename: "/geodata" }
 );
 
