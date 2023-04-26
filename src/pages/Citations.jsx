@@ -21,7 +21,7 @@ useEffect(() => {
 
   return (
     <>
-      <Flex justify="center" w="100%">
+      <Flex justify="center" align="center" w="100%" direction="column">
         {GovData.map((item) => (
           <Flex
             direction="column"
