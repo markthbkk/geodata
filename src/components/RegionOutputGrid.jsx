@@ -30,6 +30,8 @@ const RegionOutputGrid = ({ inputArray }) => {
           templateColumns="repeat(6, 1fr)"
           gap={2}
           key={region.RName}
+          w="80%"
+          mx="2rem"
         >
           <GridItem
             colSpan={3}
