@@ -32,6 +32,7 @@ const router = createBrowserRouter(
       <Route path="/citations" element={<Citations />} />
     </Route>
   )
+  { basename: "/geodata" }
 );
 
 function App({ routes }) {
