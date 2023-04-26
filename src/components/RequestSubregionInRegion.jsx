@@ -44,6 +44,7 @@ const subRegions = useQuery({
             color="white"
             fontSize="xl"
             onClick={() => clickHandler(subregion)}
+            px="1rem"
           >
             {subregion}
           </Box>
