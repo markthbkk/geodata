@@ -22,7 +22,7 @@ useEffect(() => {
   return (
     <>
       {GovData.map((item) => (
-        <Flex direction="column" key={item.displayName} mb="1rem">
+        <Flex direction="column" key={item.displayName} mb="1rem" w="90%">
           <Box bg="blue.900" color="white" p=".5rem">
             {item.displayName}
           </Box>
