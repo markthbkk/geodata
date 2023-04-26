@@ -18,6 +18,7 @@ const RegionOutputGrid = ({ inputArray }) => {
           py="1rem"
           justifyItems="center"
           fontSize="1.5rem"
+          mx="2rem"
         >
           {title}
         </Box>
