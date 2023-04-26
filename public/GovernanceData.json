@@ -1,0 +1,170 @@
+[
+  {
+    "name": "QualityOfGovernment",
+    "code": "icrg_qog",
+    "displayName": "ICRG Quality of Government",
+    "description": "The mean value of the ICRG variables 'Corruption', 'Law and Order' and 'Bureaucracy Quality', scaled from 0 to 1. Higher values indicate higher quality of government.",
+    "citation": "{The PRS Group} and others. 2023. International Country Risk Guide. Political Risk Services",
+    "highIsBetter": true,
+    "minimum": "0",
+    "maximum": "1",
+    "greenLowerBoundary": "0.75",
+    "yellowLowerBoundary": "0.4",
+    "redLowerBoundary": "0"
+  },
+
+  {
+    "name": "CorruptionIndex",
+    "code": "bci_bci",
+    "displayName": "Bayesian Corruption Index (lower is better)",
+    "description": "The BCI index values lie between 0 and 100, with an increase in the index corresponding to a raise in the level of corruption.",
+    "citation": "Samuel Standaert. 2015. Divining the level of corruption: A Bayesian state-space approach. Elsevier. Journal of Comparative Economics. 43. 3. 782--803. 10.1016/j.jce.2014.05.007. http://www.sciencedirect.com/science/article/pii/S0147596714000584",
+    "highIsBetter": false,
+    "minimum": "0",
+    "maximum": "100",
+    "greenLowerBoundary": "0",
+    "yellowLowerBoundary": "30",
+    "redLowerBoundary": "55"
+  },
+
+  {
+    "name": "IndependentJudiciary",
+    "code": "bti_ij",
+    "displayName": "BTI Independent Judiciary",
+    "description": "To what extent does an independent judiciary exist?",
+    "citation": "Donner, Sabine and Hauke Hartmann and Claudia Härterich and Sabine Steinkamp. 2022. Transformation Index of the Bertelsmann Stiftung 2022. Bertelsmann Stiftung. http://www.bti-project.org",
+    "highIsBetter": true,
+    "minimum": "1",
+    "maximum": "10",
+    "greenLowerBoundary": "7",
+    "yellowLowerBoundary": "4",
+    "redLowerBoundary": "1"
+  },
+
+  {
+    "name": "FreeFairElections",
+    "code": "bti_ffe",
+    "displayName": "BTI Free and Fair Elections",
+    "description": "To what extent are political representatives determined by general, free and fair elections?",
+    "citation": "Donner, Sabine and Hauke Hartmann and Claudia Härterich and Sabine Steinkamp. 2022. Transformation Index of the Bertelsmann Stiftung 2022. Bertelsmann Stiftung. http://www.bti-project.org",
+    "highIsBetter": true,
+    "minimum": "1",
+    "maximum": "10",
+    "greenLowerBoundary": "7",
+    "yellowLowerBoundary": "4",
+    "redLowerBoundary": "1"
+  },
+
+  {
+    "name": "ElectoralIntegrity",
+    "code": "pei_eir",
+    "displayName": "Electoral Integrity Rating",
+    "description": "This dataset by the Electoral Integrity Project evaluates the quality of elections held around the world.",
+    "citation": "Garnett, Holly Ann and James, Toby S. and MacGregor, Madison. 2022. {Perceptions of Electoral Integrity, (PEI-8.0)}. Harvard Dataverse. 10.7910/DVN/YSNYXD. V1, UNF:6:lINJ6KG6BcEwGIXz7tM4Yg== [fileUNF]",
+    "highIsBetter": true,
+    "minimum": "1",
+    "maximum": "10",
+    "greenLowerBoundary": "7",
+    "yellowLowerBoundary": "4",
+    "redLowerBoundary": "1"
+  },
+
+  {
+    "name": "FreedomOfExpression",
+    "code": "fh_feb",
+    "displayName": "Freedom of Expression and Belief",
+    "description": "The freedom and independence of the media and other cultural expressions; the freedom of religious groups to practice their faith and express themselves; the academic freedom and freedom from extensive political indoctrination in the educational system.",
+    "citation": "{Freedom House}. 2022. Freedom in the World 2022. https://freedomhouse.org/report/freedom-world",
+    "highIsBetter": true,
+    "minimum": "0",
+    "maximum": "16",
+    "greenLowerBoundary": "11",
+    "yellowLowerBoundary": "6",
+    "redLowerBoundary": "0"
+  },
+
+  {
+    "name": "PressFreedom",
+    "code": " rsf_pfi",
+    "displayName": "Press Freedom Index",
+    "description": "The Press Freedom Index measures the amount of freedom journalists, and the media have in each country, and the efforts made by governments to see that press freedom is respected.",
+    "citation": "{Reporters sans frontières}. 2022. World Press Freedom Index. Version 2022. https://rsf.org/en/index",
+    "highIsBetter": true,
+    "minimum": "1",
+    "maximum": "100",
+    "greenLowerBoundary": "70",
+    "yellowLowerBoundary": "40",
+    "redLowerBoundary": "1"
+  },
+  {
+    "name": "EnvironmentalHealthProtection",
+    "code": " epi_eh",
+    "displayName": "Environmental Health Policy Objective",
+    "description": "Environmental Health Policy Objective measures how well countries are protecting their populations from environmental health risks.",
+    "citation": "Environmental Health Policy Objective measures how well countries are protecting their populations from environmental health risks.",
+    "highIsBetter": true,
+    "minimum": "0",
+    "maximum": "100",
+    "greenLowerBoundary": "60",
+    "yellowLowerBoundary": "30",
+    "redLowerBoundary": "0"
+  },
+
+  {
+    "name": "EnvironmentalPerformance",
+    "code": " epi_epi",
+    "displayName": "Environmental Performance Index",
+    "description": "32 performance indicators across 11 categories - Air Quality, Sanitation and Drinking Water, Heavy Metals, Waste Management, Biodiversity and Habitat, Ecosystem Services, Fisheries, Climate Change, Pollution Emissions, Water Resources, and Agriculture.",
+    "citation": "Wolf, M.J. and Emerson J. W. and Esty D. C. and de Sherbinin, A. and Wendling, Z. A., et al.. 2022. 2022 Environmental Performance Index. New Haven, CT: Yale Center for Environmental Law and Policy. epi.yale.edu. Date accessed: 17 October 2022",
+    "highIsBetter": true,
+    "minimum": "0",
+    "maximum": "100",
+    "greenLowerBoundary": "65",
+    "yellowLowerBoundary": "35",
+    "redLowerBoundary": "0"
+  },
+
+  {
+    "name": "GenderInequality",
+    "code": " gii_gii",
+    "displayName": "Gender Inequality Index (lower is better)",
+    "description": "Measures gender inequalities in three important aspects of human development-reproductive health, measured by maternal mortality ratio and adolescent birth rates; empowerment, measured by proportion of parliamentary seats occupied by females and proportion of adult females and males aged 25 years and older with at least some secondary education; and economic status, expressed as labour market participation and measured by labour force participation rate of female and male populations aged 15 years and older.",
+    "citation": "{United Nations Development Program}. 2022. Gender Inequality Index. http://hdr.undp.org/en/content/gender-inequality-index-gii, {United Nations Development Program}. 2022. Human Development Report 2021/2022. https://hdr.undp.org/content/human-development-report-2021-22",
+    "highIsBetter": false,
+    "minimum": "0",
+    "maximum": "1",
+    "greenLowerBoundary": "0",
+    "yellowLowerBoundary": "0.3",
+    "redLowerBoundary": "0.55"
+  },
+
+  {
+    "name": "HealthDevelopmentIndex",
+    "code": " undp_hdi",
+    "displayName": "UN Human Development Index",
+    "description": "The Human Development Index (HDI) is a summary measure of average achievement in key dimensions of human development: a long and healthy life, being knowledgeable and having a decent standard of living. The HDI is the geometric mean of normalized indices for each of the three dimensions. The closer the score is to 1, the better the country is doing.",
+    "citation": "{United Nations Development Program}. 2022. Human Development Report 2021/2022. https://hdr.undp.org/content/human-development-report-2021-22",
+    "highIsBetter": true,
+    "minimum": "0",
+    "maximum": "1",
+    "greenLowerBoundary": "0.75",
+    "yellowLowerBoundary": "0.5",
+    "redLowerBoundary": "0"
+  },
+
+  {
+    "name": "GDPPerCapita2011",
+    "code": " mad_gdppc",
+    "displayName": "Real GDP per Capita",
+    "description": "Real GDP per capita in 2011 US dollars, multiple benchmarks.",
+    "citation": "Jutta Bolt and Jan Luiten van Zanden. 2020. Maddison Project Database, version 2020. https://www.rug.nl/ggdc/historicaldevelopment/maddison/research. Maddison style estimates of the evolution of the world economy: A new 2020 update",
+    "highIsBetter": true,
+    "minimum": "0",
+    "maximum": "160000",
+    "greenLowerBoundary": "30000",
+    "yellowLowerBoundary": "10000",
+    "redLowerBoundary": "0"
+  }
+]
+
+
