@@ -12,12 +12,13 @@ const SubRegionGrid = ({ inputArray }) => {
           mb="1rem"
           bg="black"
           color="white"
-          w="100%"
+          w="90%"
           h="100%"
           pl="1rem"
           py="1rem"
           justifyItems="center"
           fontSize="1.5rem"
+          mx="2rem"
         >
           {title}
         </Box>
@@ -29,6 +30,8 @@ const SubRegionGrid = ({ inputArray }) => {
           templateColumns="repeat(6, 1fr)"
           gap={2}
           key={SREntry.SRName}
+          w="90%"
+          mx="2rem"
         >
           <GridItem
             colSpan={3}

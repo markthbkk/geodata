@@ -12,7 +12,7 @@ const CountryOutputGrid = ({ inputArray }) => {
           mb="1rem"
           bg="black"
           color="white"
-          w="100%"
+          w="90%"
           h="100%"
           pl="1rem"
           py="1rem"
@@ -29,6 +29,8 @@ const CountryOutputGrid = ({ inputArray }) => {
           templateColumns="repeat(6, 1fr)"
           gap={2}
           key={country.CName}
+          w="90%"
+          mx="2rem"
         >
           <GridItem
             colSpan={3}

@@ -12,7 +12,7 @@ const RegionOutputGrid = ({ inputArray }) => {
           mb="1rem"
           bg="black"
           color="white"
-          w="80%"
+          w="90%"
           h="100%"
           pl="1rem"
           py="1rem"
@@ -30,7 +30,7 @@ const RegionOutputGrid = ({ inputArray }) => {
           templateColumns="repeat(6, 1fr)"
           gap={2}
           key={region.RName}
-          w="80%"
+          w="90%"
           mx="2rem"
         >
           <GridItem
