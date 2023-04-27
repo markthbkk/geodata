@@ -30,7 +30,7 @@ const CountryOutputGrid = ({ inputArray }) => {
           templateColumns="repeat(6, 1fr)"
           gap={2}
           key={country.CName}
-          w="100%"
+          w="85%"
           mx="2rem"
           justify="center"
         >
