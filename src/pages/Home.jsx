@@ -1,4 +1,4 @@
-
+import { Flex, Image } from "@chakra-ui/react";
 // import { useLoaderData } from "react-router-dom";
 // import Countries from "../components/Countries";
 // import Search from "../components/Search";
@@ -16,17 +16,17 @@ export default function Home() {
   //   const handleClickShowCountries = (filteredCountriesObject) => {
   //       setShowCountries(true);
   //       if (filteredCountriesObject.SubRegion?.subregion) {
-          
+
   //           setcountriesFilter(filteredCountriesObject.SubRegion.subregion)
-      
+
   //           setFilterType("subregion");
   //       }
-      
+
   //       console.log(filteredCountriesObject.PartialName)
-        
-  //       if (filteredCountriesObject.PartialName) { 
+
+  //       if (filteredCountriesObject.PartialName) {
   //       setcountriesFilter(filteredCountriesObject.PartialName)
-      
+
   //       setFilterType("searchstring")
   //   }
   // };
@@ -35,13 +35,12 @@ export default function Home() {
 
   //       setShowCountries(false);
   //   }
-    
+
   // const allCountries = useLoaderData();
 
-    return (
-      
-        <div>
-          {/* {showSearch && (
+  return (
+    <Flex w="100%" alignItems="center" h="75vh">
+      {/* {showSearch && (
             <Search
               prepareCountriesFilter={handleClickShowCountries}
               hideCountries={hideCountries}
@@ -54,8 +53,12 @@ export default function Home() {
               filterType={filterType}
             />
           )} */}
-        HOME
-        </div>
-      
-    );
+      <Image
+        boxSize="50%"
+        objectFit="cover"
+        src="/QOG-Logo.png"
+        alt="Quality Of Governement Project Logo"
+      />
+    </Flex>
+  );
 }
