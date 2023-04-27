@@ -56,7 +56,7 @@ export default function Home() {
       <Image
         boxSize="50%"
         objectFit="cover"
-        src="/QOG-Logo.png"
+        src="QOG-Logo.png"
         alt="Quality Of Governement Project Logo"
       />
     </Flex>
