@@ -17,7 +17,7 @@ const CountryOutputGrid = ({ inputArray }) => {
           pl="1rem"
           py=".6rem"
           justifyItems="center"
-          fontSize="1.5rem"
+          fontSize={["1rem", "1rem", "1.5rem", "1.5rem"]}
           mx="2rem"
         >
           {title}
@@ -32,6 +32,7 @@ const CountryOutputGrid = ({ inputArray }) => {
           key={country.CName}
           w="85%"
           mx="2rem"
+          justify="center"
         >
           <GridItem
             colSpan={[4, 4, 3, 3]}
