@@ -61,8 +61,8 @@ const RegionOutputGrid = ({ inputArray }) => {
           </GridItem>
           <GridItem
             colSpan={[6, 6, 2, 2]}
-            mb="1.5rem"
-            bg="blue.900"
+            mb={["1.5rem", "1.5rem", "1rem", "1rem"]}
+            bg="blue.600"
             color="white"
             border="2px solid black"
             pl="1rem"
