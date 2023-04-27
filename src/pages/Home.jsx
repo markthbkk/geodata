@@ -7,13 +7,13 @@ export default function Home() {
 
   return (
     <Flex w="100%" alignItems="center" justifyContent="center" h="75vh">
-      
       <Image
         boxSize="50%"
         objectFit="cover"
         src={QOGLogo}
         alt="Quality Of Governement Project Logo"
-        border="2px solid black"
+        // border="2px solid black"
+        boxShadow="md"
       />
     </Flex>
   );
