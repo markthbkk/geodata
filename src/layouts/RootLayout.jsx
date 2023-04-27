@@ -60,7 +60,7 @@ export default function RootLayout() {
           borderTop="1px solid white"
         >
           <Flex justifyContent="space-around">
-            <NavLink to="/">
+            <NavLink to="/" style={({isActive}) => ({color: isActive?  "yellow.800" : "white"})}>
               <Text fontSize="2xl" align="center">
                 Countries
               </Text>
