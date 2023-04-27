@@ -12,7 +12,7 @@ import {
 
 export default function RootLayout() {
   return (
-    <Container maxW="container.xl" bg="white" color="black" p="0">
+    <Container maxW="container.xl" bg="white" color="black" p="0" mb="1.5rem">
       <Grid
         // templateRows="repeat(2, 1fr)"
         templateColumns="repeat(4, 1fr)"
