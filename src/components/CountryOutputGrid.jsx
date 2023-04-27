@@ -30,11 +30,11 @@ const CountryOutputGrid = ({ inputArray }) => {
           templateColumns="repeat(6, 1fr)"
           gap={2}
           key={country.CName}
-          w="90%"
+          w="85%"
           mx="2rem"
         >
           <GridItem
-            colSpan={[4,4,3,3]}
+            colSpan={[4, 4, 3, 3]}
             mb="1rem"
             bg="blue.900"
             color="white"
@@ -47,7 +47,7 @@ const CountryOutputGrid = ({ inputArray }) => {
             </Flex>
           </GridItem>
           <GridItem
-            colSpan={[2,2,1,1]}
+            colSpan={[2, 2, 1, 1]}
             mb="1rem"
             borderColor="blue.800"
             bg="white"
@@ -60,11 +60,12 @@ const CountryOutputGrid = ({ inputArray }) => {
             </Flex>
           </GridItem>
           <GridItem
-            colSpan={[0,0,2,2]}
+            colSpan={[0, 0, 2, 2]}
             mb="1rem"
             bg="blue.700"
             color="white"
             border="2px solid black"
+            borderWidth={["0px", "0px", "2px", "2px"]}
             pl="1rem"
           >
             {/* <Flex justify="left" align="center" h="100%">
