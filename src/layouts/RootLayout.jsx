@@ -73,7 +73,7 @@ export default function RootLayout() {
               style={({ isActive, isPending }) => {
                 return {
                   fontWeight: isActive ? "bold" : "",
-                  color: isPending ? "white" : "yellow",
+                  color: isActive ? "grey" : "white",
                 };
               }}
             >
@@ -86,7 +86,7 @@ export default function RootLayout() {
               style={({ isActive, isPending }) => {
                 return {
                   fontWeight: isActive ? "bold" : "",
-                  color: isPending ? "white" : "yellow",
+                  color: isActive ? "grey" : "white",
                 };
               }}
             >
@@ -99,7 +99,7 @@ export default function RootLayout() {
               style={({ isActive, isPending }) => {
                 return {
                   fontWeight: isActive ? "bold" : "",
-                  color: isActive ? "yellow.800" : "white",
+                  color: isActive ? "grey" : "white",
                 };
               }}
             >
