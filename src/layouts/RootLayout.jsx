@@ -72,8 +72,8 @@ export default function RootLayout() {
               to="/"
               style={({ isActive, isPending }) => {
                 return {
-                  fontWeight: isActive ? "bold" : "",
-                  color: isActive ? "grey" : "white",
+                  // fontWeight: isActive ? "bold" : "",
+                  color: isActive ? "#D69E2E" : "white",
                 };
               }}
             >
@@ -85,8 +85,8 @@ export default function RootLayout() {
               to="/reports"
               style={({ isActive, isPending }) => {
                 return {
-                  fontWeight: isActive ? "bold" : "",
-                  color: isActive ? "grey" : "white",
+                  // fontWeight: isActive ? "bold" : "",
+                  color: isActive ? "#D69E2E" : "white",
                 };
               }}
             >
@@ -98,8 +98,8 @@ export default function RootLayout() {
               to="/citations"
               style={({ isActive, isPending }) => {
                 return {
-                  fontWeight: isActive ? "bold" : "",
-                  color: isActive ? "grey" : "white",
+                  // fontWeight: isActive ? "bold" : "",
+                  color: isActive ? "#D69E2E" : "white",
                 };
               }}
             >
