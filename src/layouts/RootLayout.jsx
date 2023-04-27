@@ -1,6 +1,14 @@
 import { Outlet, NavLink } from "react-router-dom";
 
-import { Container, Grid, GridItem, Box, Text, HStack, Flex } from "@chakra-ui/react";
+import {
+  Container,
+  Grid,
+  GridItem,
+  Box,
+  Text,
+  HStack,
+  Flex,
+} from "@chakra-ui/react";
 
 export default function RootLayout() {
   return (
@@ -14,7 +22,7 @@ export default function RootLayout() {
         <GridItem colSpan={4} bg="blue.900" color="white">
           <nav>
             <Flex justifyContent="center">
-              <HStack spacing={[6,6,10,10]} py="1.8rem">
+              <HStack spacing={[6, 6, 10, 10]} py="1.8rem">
                 <Box
                   w={["4rem", "4rem", "6rem", "6rem"]}
                   py={[".6rem", ".6rem", "1rem", "1rem"]}
@@ -60,7 +68,8 @@ export default function RootLayout() {
           borderTop="1px solid white"
         >
           <Flex justifyContent="space-around">
-            <NavLink to="/" style={({isActive}) => ({color: isActive ?  "yellow.600" : "white"})}>
+            <NavLink to="/">
+              {/* <NavLink to="/" style={({isActive}) => ({color: isActive ?  "yellow.600" : "white"})}></NavLink> */}
               <Text fontSize="2xl" align="center">
                 Countries
               </Text>
