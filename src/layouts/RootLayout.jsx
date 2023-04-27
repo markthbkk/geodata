@@ -73,7 +73,7 @@ export default function RootLayout() {
               style={({ isActive, isPending }) => {
                 return {
                   fontWeight: isActive ? "bold" : "",
-                  color: isPending ? "white" : "yellow.700",
+                  color: isPending ? "white" : "yellow",
                 };
               }}
             >
@@ -81,12 +81,28 @@ export default function RootLayout() {
                 Countries
               </Text>
             </NavLink>
-            <NavLink to="/reports">
+            <NavLink
+              to="/reports"
+              style={({ isActive, isPending }) => {
+                return {
+                  fontWeight: isActive ? "bold" : "",
+                  color: isPending ? "white" : "yellow",
+                };
+              }}
+            >
               <Text fontSize="2xl" align="center">
                 Rankings
               </Text>
             </NavLink>
-            <NavLink to="/citations">
+            <NavLink
+              to="/citations"
+              style={({ isActive, isPending }) => {
+                return {
+                  fontWeight: isActive ? "bold" : "",
+                  color: isPending ? "white" : "yellow",
+                };
+              }}
+            >
               <Text fontSize="2xl" align="center">
                 Citations
               </Text>
