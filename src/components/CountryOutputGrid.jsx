@@ -34,7 +34,7 @@ const CountryOutputGrid = ({ inputArray }) => {
           mx="2rem"
         >
           <GridItem
-            colSpan={3}
+            colSpan={[4,4,3,3]}
             mb="1rem"
             bg="blue.900"
             color="white"
@@ -47,7 +47,7 @@ const CountryOutputGrid = ({ inputArray }) => {
             </Flex>
           </GridItem>
           <GridItem
-            colSpan={1}
+            colSpan={[2,2,1,1]}
             mb="1rem"
             borderColor="blue.800"
             bg="white"
@@ -60,7 +60,7 @@ const CountryOutputGrid = ({ inputArray }) => {
             </Flex>
           </GridItem>
           <GridItem
-            colSpan={2}
+            colSpan={[0,0,2,2]}
             mb="1rem"
             bg="blue.700"
             color="white"
