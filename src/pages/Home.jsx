@@ -1,47 +1,47 @@
 
-import { useLoaderData } from "react-router-dom";
-import Countries from "../components/Countries";
-import Search from "../components/Search";
-import { useState } from "react";
+// import { useLoaderData } from "react-router-dom";
+// import Countries from "../components/Countries";
+// import Search from "../components/Search";
+// import { useState } from "react";
 
 export default function Home() {
-  const [showSearch, setShowSearch] = useState(true);
-  const [showCountries, setShowCountries] = useState(false);
-    const [countriesFilter, setcountriesFilter] = useState({});
-    const [filterType, setFilterType] = useState("")
+  // const [showSearch, setShowSearch] = useState(true);
+  // const [showCountries, setShowCountries] = useState(false);
+  //   const [countriesFilter, setcountriesFilter] = useState({});
+  //   const [filterType, setFilterType] = useState("")
 
-  const handleClickHideSearch = () => {
-    setShowSearch(false);
-  };
-    const handleClickShowCountries = (filteredCountriesObject) => {
-        setShowCountries(true);
-        if (filteredCountriesObject.SubRegion?.subregion) {
+  // const handleClickHideSearch = () => {
+  //   setShowSearch(false);
+  // };
+  //   const handleClickShowCountries = (filteredCountriesObject) => {
+  //       setShowCountries(true);
+  //       if (filteredCountriesObject.SubRegion?.subregion) {
           
-            setcountriesFilter(filteredCountriesObject.SubRegion.subregion)
+  //           setcountriesFilter(filteredCountriesObject.SubRegion.subregion)
       
-            setFilterType("subregion");
-        }
+  //           setFilterType("subregion");
+  //       }
       
-        console.log(filteredCountriesObject.PartialName)
+  //       console.log(filteredCountriesObject.PartialName)
         
-        if (filteredCountriesObject.PartialName) { 
-        setcountriesFilter(filteredCountriesObject.PartialName)
+  //       if (filteredCountriesObject.PartialName) { 
+  //       setcountriesFilter(filteredCountriesObject.PartialName)
       
-        setFilterType("searchstring")
-    }
-  };
+  //       setFilterType("searchstring")
+  //   }
+  // };
 
-    const hideCountries = () => {
+  //   const hideCountries = () => {
 
-        setShowCountries(false);
-    }
+  //       setShowCountries(false);
+  //   }
     
-  const allCountries = useLoaderData();
+  // const allCountries = useLoaderData();
 
     return (
       
         <div>
-          {showSearch && (
+          {/* {showSearch && (
             <Search
               prepareCountriesFilter={handleClickShowCountries}
               hideCountries={hideCountries}
@@ -53,7 +53,8 @@ export default function Home() {
               countriesFilter={countriesFilter}
               filterType={filterType}
             />
-          )}
+          )} */}
+        HOME
         </div>
       
     );

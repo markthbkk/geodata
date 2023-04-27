@@ -19,6 +19,7 @@ const queryClient = new QueryClient({
 });
 
 import Home from "./pages/Home";
+import CountriesHome from "./pages/CountriesHome";
 import { countriesLoader } from "./components/Loaders";
 import Citations from "./pages/Citations";
 import RootLayout from "./layouts/RootLayout";
@@ -26,9 +27,23 @@ import GovernanceReports from "./pages/GovernanceReports";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
+    // <Route path="/" element={<RootLayout />}>
+    //   <Route index element={<Home />} loader={countriesLoader(queryClient)} />
+    //   <Route path="/reports" element={<GovernanceReports />} loader={countriesLoader(queryClient)} />
+    //   <Route path="/citations" element={<Citations />} />
+    // </Route>
     <Route path="/" element={<RootLayout />}>
-      <Route index element={<Home />} loader={countriesLoader(queryClient)} />
-      <Route path="/reports" element={<GovernanceReports />} loader={countriesLoader(queryClient)} />
+      <Route index element={<Home />} />
+      <Route
+        path="/countries"
+        element={<CountriesHome />}
+        loader={countriesLoader(queryClient)}
+      />
+      <Route
+        path="/reports"
+        element={<GovernanceReports />}
+        loader={countriesLoader(queryClient)}
+      />
       <Route path="/citations" element={<Citations />} />
     </Route>
   ),

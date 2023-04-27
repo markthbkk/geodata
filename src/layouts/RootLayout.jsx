@@ -69,7 +69,7 @@ export default function RootLayout() {
         >
           <Flex justifyContent="space-around">
             <NavLink
-              to="/"
+              to="/countries"
               style={({ isActive, isPending }) => {
                 return {
                   // fontWeight: isActive ? "bold" : "",
