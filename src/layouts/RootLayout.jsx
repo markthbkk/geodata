@@ -69,10 +69,21 @@ export default function RootLayout() {
         >
           <Flex justifyContent="space-around">
             <NavLink
+              to="/"
+              style={({ isActive, isPending }) => {
+                return {
+                  color: isActive ? "#D69E2E" : "white",
+                };
+              }}
+            >
+              <Text fontSize="2xl" align="center">
+                Home
+              </Text>
+            </NavLink>
+            <NavLink
               to="/countries"
               style={({ isActive, isPending }) => {
                 return {
-                  // fontWeight: isActive ? "bold" : "",
                   color: isActive ? "#D69E2E" : "white",
                 };
               }}
@@ -85,7 +96,6 @@ export default function RootLayout() {
               to="/reports"
               style={({ isActive, isPending }) => {
                 return {
-                  // fontWeight: isActive ? "bold" : "",
                   color: isActive ? "#D69E2E" : "white",
                 };
               }}
@@ -98,7 +108,6 @@ export default function RootLayout() {
               to="/citations"
               style={({ isActive, isPending }) => {
                 return {
-                  // fontWeight: isActive ? "bold" : "",
                   color: isActive ? "#D69E2E" : "white",
                 };
               }}
