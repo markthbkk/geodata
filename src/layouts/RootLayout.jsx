@@ -99,7 +99,7 @@ export default function RootLayout() {
               style={({ isActive, isPending }) => {
                 return {
                   fontWeight: isActive ? "bold" : "",
-                  color: isPending ? "white" : "yellow",
+                  color: isActive ? "yellow.800" : "white",
                 };
               }}
             >
