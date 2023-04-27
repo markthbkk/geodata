@@ -12,7 +12,7 @@ const CountryOutputGrid = ({ inputArray }) => {
           mb="1.6rem"
           bg="black"
           color="white"
-          w="90%"
+          w="85%"
           h="100%"
           pl="1rem"
           py=".6rem"
