@@ -26,7 +26,7 @@ const SubRegionGrid = ({ inputArray }) => {
 
       {inputArray.map((SREntry) => (
         <Grid
-          h="4rem"
+          // h="4rem"
           templateColumns="repeat(6, 1fr)"
           gap={2}
           key={SREntry.SRName}
