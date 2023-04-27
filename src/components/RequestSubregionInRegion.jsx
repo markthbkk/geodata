@@ -29,7 +29,7 @@ const RequestSubregionInRegion = ({ region, clickHandler }) => {
       align="center"
     >
       {subRegions.data?.map((subregion) => (
-        <GridItem colSpan={1} key={subregion}>
+        <GridItem colSpan={[3, 3, 1, 1]} key={subregion}>
           <Box
             as="button"
             w="80%"

@@ -19,22 +19,22 @@ export default function reportsJSON() {
 
     Subregion: [
       [
-        "Single Subregion Summary",
+        "Single Subregion",
         ["RequestRegion", "RequestSubregionInRegion", "Generate/Subregions"],
       ],
       [
-        "All Subregions in Region Summary",
+        "All Subregions in Region",
         ["RequestRegion", "ListSubregionsInRegion", "Generate/Subregions"],
       ],
       [
-        "All Subregions Summary",
+        "All Subregions",
         ["", "ListAllSubregions", "Generate/SubregionsAll"],
       ],
     ],
 
     Region: [
-      ["Single Region Summary", ["RequestSingleRegion", "", "Generate/Region"]],
-      ["All Regions Summary", ["", "", "Generate/Regions"]],
+      ["Single Region", ["RequestSingleRegion", "", "Generate/Region"]],
+      ["All Regions", ["", "", "Generate/Regions"]],
     ],
   };
 
