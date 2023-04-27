@@ -9,10 +9,10 @@ const CountryOutputGrid = ({ inputArray }) => {
       <Flex justify="left" align="center">
         <Box
           border="1px solid black"
-          mb="1rem"
+          mb="1.6rem"
           bg="black"
           color="white"
-          w="95%"
+          w="90%"
           h="100%"
           pl="1rem"
           py=".6rem"

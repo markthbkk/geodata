@@ -9,7 +9,7 @@ const SubRegionGrid = ({ inputArray }) => {
       <Flex justify="left" align="center">
         <Box
           border="1px solid black"
-          mb="1rem"
+          mb="1.6rem"
           bg="black"
           color="white"
           w="90%"
@@ -17,7 +17,7 @@ const SubRegionGrid = ({ inputArray }) => {
           pl="1rem"
           py="1rem"
           justifyItems="center"
-          fontSize="1.5rem"
+          fontSize={["1rem", "1rem", "1.5rem", "1.5rem"]}
           mx="2rem"
         >
           {title}
@@ -34,7 +34,7 @@ const SubRegionGrid = ({ inputArray }) => {
           mx="2rem"
         >
           <GridItem
-            colSpan={3}
+            colSpan={[4, 4, 3, 3]}
             mb="1rem"
             bg="blue.900"
             color="white"
@@ -47,7 +47,7 @@ const SubRegionGrid = ({ inputArray }) => {
             </Flex>
           </GridItem>
           <GridItem
-            colSpan={1}
+            colSpan={[2, 2, 1, 1]}
             mb="1rem"
             borderColor="blue.900"
             bg="white"
@@ -60,7 +60,7 @@ const SubRegionGrid = ({ inputArray }) => {
             </Flex>
           </GridItem>
           <GridItem
-            colSpan={2}
+            colSpan={[6, 6, 2, 2]}
             mb="1rem"
             bg="blue.900"
             color="white"
