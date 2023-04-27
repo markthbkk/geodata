@@ -1,4 +1,5 @@
 import { Flex, Image } from "@chakra-ui/react";
+import QOGLogo from "/QOG-Logo.png"
 // import { useLoaderData } from "react-router-dom";
 // import Countries from "../components/Countries";
 // import Search from "../components/Search";
@@ -56,7 +57,7 @@ export default function Home() {
       <Image
         boxSize="50%"
         objectFit="cover"
-        src="QOG-Logo.png"
+        src={QOGLogo}
         alt="Quality Of Governement Project Logo"
       />
     </Flex>
