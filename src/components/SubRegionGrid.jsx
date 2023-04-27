@@ -18,7 +18,7 @@ const SubRegionGrid = ({ inputArray }) => {
           py="1rem"
           justifyItems="center"
           fontSize={["1rem", "1rem", "1.5rem", "1.5rem"]}
-          mx="2rem"
+          // mx="2rem"
         >
           {title}
         </Box>
@@ -31,7 +31,7 @@ const SubRegionGrid = ({ inputArray }) => {
           gap={2}
           key={SREntry.SRName}
           w="90%"
-          mx="2rem"
+          // mx="2rem"
         >
           <GridItem
             colSpan={[4, 4, 3, 3]}
