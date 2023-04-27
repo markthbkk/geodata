@@ -6,10 +6,10 @@ export default function Home() {
   
 
   return (
-    <Flex w="100%" alignItems="center" justifyContent="center" h="75vh">
+    <Flex w="100%" alignItems="center" justifyContent="center" h="55vh">
       <Image
         boxSize="50%"
-        objectFit="cover"
+        objectFit="contain"
         src={QOGLogo}
         alt="Quality Of Governement Project Logo"
         // border="2px solid black"

@@ -33,7 +33,7 @@ const SearchBar = ({
     }
 
   return (
-    <Flex justify="space-around">
+    <Flex justify="space-around" mt="2rem">
       <InputGroup w="75%">
         <InputLeftElement
           pointerEvents="none"
