@@ -32,7 +32,7 @@ const CountryOutputGrid = ({ inputArray }) => {
           key={country.CName}
           w="85%"
           mx="2rem"
-          justify="center"
+          // justify="center"
         >
           <GridItem
             colSpan={[4, 4, 3, 3]}

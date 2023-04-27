@@ -26,7 +26,7 @@ const RegionOutputGrid = ({ inputArray }) => {
 
       {inputArray.map((region) => (
         <Grid
-          h="4rem"
+          // h="4rem"
           templateColumns="repeat(6, 1fr)"
           gap={2}
           key={region.RName}
@@ -62,7 +62,7 @@ const RegionOutputGrid = ({ inputArray }) => {
           <GridItem
             colSpan={[6, 6, 2, 2]}
             mb={["1.5rem", "1.5rem", "1rem", "1rem"]}
-            bg="blue.600"
+            bg="blue.700"
             color="white"
             border="2px solid black"
             pl="1rem"
