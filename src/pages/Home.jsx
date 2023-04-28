@@ -1,6 +1,21 @@
 import { Flex, Image } from "@chakra-ui/react";
 import QOGLogo from "/QOG-Logo.png"
 
+const getCountries = async () => {
+  const res = await fetch(
+    "https://countries-api-7dz0.onrender.com/api/v1/countries"
+  );
+
+  if (!res.ok) {
+    throw Error("Could not fetch the list of coutries");
+  }
+
+  return res.json();
+};
+
+const countries = useQuery({ queryKey: ["countries"], queryFn: getCountries });
+
+console.log( countries)
 
 export default function Home() {
   
