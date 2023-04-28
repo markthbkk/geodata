@@ -1,5 +1,6 @@
+import { useQuery } from "@tanstack/react-query";
 import { Flex, Image } from "@chakra-ui/react";
-import QOGLogo from "/QOG-Logo.png"
+import QOGLogo from "/QOG-Logo.png";
 
 const getCountries = async () => {
   const res = await fetch(
@@ -15,11 +16,9 @@ const getCountries = async () => {
 
 const countries = useQuery({ queryKey: ["countries"], queryFn: getCountries });
 
-console.log( countries)
+console.log(countries);
 
 export default function Home() {
-  
-
   return (
     <Flex w="100%" alignItems="center" justifyContent="center" h="55vh">
       <Image
