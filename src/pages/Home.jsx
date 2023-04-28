@@ -2,21 +2,21 @@ import { useQuery } from "@tanstack/react-query";
 import { Flex, Image } from "@chakra-ui/react";
 import QOGLogo from "/QOG-Logo.png";
 
-const getCountries = async () => {
-  const res = await fetch(
-    "https://countries-api-7dz0.onrender.com/api/v1/countries"
-  );
+// const getCountries = async () => {
+//   const res = await fetch(
+//     "https://countries-api-7dz0.onrender.com/api/v1/countries"
+//   );
 
-  if (!res.ok) {
-    throw Error("Could not fetch the list of coutries");
-  }
+//   if (!res.ok) {
+//     throw Error("Could not fetch the list of coutries");
+//   }
 
-  return res.json();
-};
+//   return res.json();
+// };
 
-const countries = useQuery({ queryKey: ["countries"], queryFn: getCountries });
+// const countries = useQuery({ queryKey: ["countries"], queryFn: getCountries });
 
-console.log(countries);
+// console.log(countries);
 
 export default function Home() {
   return (
