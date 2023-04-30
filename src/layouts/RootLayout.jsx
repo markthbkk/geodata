@@ -76,7 +76,7 @@ export default function RootLayout() {
                 };
               }}
             >
-              <Text fontSize="2xl" align="center">
+              <Text fontSize={["xl", "xl", "2xl", "2xl"]} align="center">
                 Home
               </Text>
             </NavLink>
@@ -88,7 +88,7 @@ export default function RootLayout() {
                 };
               }}
             >
-              <Text fontSize="2xl" align="center">
+              <Text fontSize={["xl", "xl", "2xl", "2xl"]} align="center">
                 Countries
               </Text>
             </NavLink>
@@ -100,7 +100,7 @@ export default function RootLayout() {
                 };
               }}
             >
-              <Text fontSize="2xl" align="center">
+              <Text fontSize={["xl", "xl", "2xl", "2xl"]} align="center">
                 Rankings
               </Text>
             </NavLink>
@@ -112,7 +112,7 @@ export default function RootLayout() {
                 };
               }}
             >
-              <Text fontSize="2xl" align="center">
+              <Text fontSize={["xl", "xl", "2xl", "2xl"]} align="center">
                 Citations
               </Text>
             </NavLink>
