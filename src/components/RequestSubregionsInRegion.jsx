@@ -12,8 +12,7 @@ const RequestSubregionsInRegion = ({
 
   const getSubRegions = async (region) => {
     const url =
-      "https://countries-api-7dz0.onrender.com/api/v1/countries/subregions/" +
-      region;
+      "https://geodata-api.lkmi-tech.com/api/v1/countries/subregions/" + region;
 
     console.log(url);
     const res = await fetch(url);

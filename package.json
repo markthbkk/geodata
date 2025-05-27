@@ -3,8 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://markthbkk.github.io/geodata/",
-  "scripts": {
+    "scripts": {
     "dev": "vite",
     "build": "vite build",
     "predeploy": "npm run build",

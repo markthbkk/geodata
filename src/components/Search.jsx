@@ -7,7 +7,7 @@ import SearchResultsRegions from "./SearchResultsRegions";
 
 const getRegions = async () => {
   const res = await fetch(
-    "https://countries-api-7dz0.onrender.com/api/v1/countries/regions/distinct"
+    "https://geodata-api.lkmi-tech.com/api/v1/countries/regions/distinct"
   );
   return res.json();
 };

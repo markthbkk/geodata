@@ -4,7 +4,7 @@ import QOGLogo from "/QOG-Logo.png";
 
 const getCountries = async () => {
   const res = await fetch(
-    "https://countries-api-7dz0.onrender.com/api/v1/countries"
+    "https://geodata-api.lkmi-tech.com/api/v1/countries"
   );
 
   if (!res.ok) {
